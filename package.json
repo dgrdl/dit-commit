@@ -1,0 +1,29 @@
+{
+  "name": "dit-commit",
+  "version": "0.0.1",
+  "description": "Turns your commit messages into morse code.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qakulukiam/dit-commit.git"
+  },
+  "bin": {
+    "dit-commit": "index.js"
+  },
+  "keywords": [
+    "morse",
+    "code",
+    "git",
+    "hooks"
+  ],
+  "contributors": [
+    "Doğa Gürdal",
+    "Michael Carruthers"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qakulukiam/dit-commit/issues"
+  },
+  "homepage": "https://github.com/Qakulukiam/dit-commit#readme"
+}
