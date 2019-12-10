@@ -1,6 +1,6 @@
 {
   "name": "dit-commit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Turns your commit messages into morse code.",
   "main": "index.js",
   "scripts": {},
