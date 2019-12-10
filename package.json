@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/Qakulukiam/dit-commit/issues"
   },
-  "homepage": "https://github.com/Qakulukiam/dit-commit#readme"
+  "homepage": "https://github.com/Qakulukiam/dit-commit#readme",
+  "dependencies": {
+    "simple-git": "^1.128.0",
+    "yargs": "^15.0.2"
+  }
 }
