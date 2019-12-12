@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Qakulukiam/dit-commit#readme",
   "dependencies": {
+    "findup": "^0.1.5",
     "simple-git": "^1.128.0",
     "yargs": "^15.0.2"
   }
