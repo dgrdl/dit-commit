@@ -111,17 +111,6 @@ const alphabet = {
 };
 
 function encode(message) {
-  // const chars = Object.keys(alphabet).join('');
-
-  // const charsEscaped = chars.replace(/[\\^$*+?.()|[\]{}]/g, '\\$&');
-
-  // const charsRegex = new RegExp(`[${charsEscaped}]`, 'gi');
-
-  // const newMessage = message.replace(charsRegex, c => {
-  //   console.log(c, c.toUpperCase());
-  //   return alphabet[c.toUpperCase()] + ' ';
-  // });
-
   let newMessage = '';
   message.split('').forEach(c => {
     const morse = alphabet[c.toUpperCase()] || false;
