@@ -25,6 +25,7 @@ yargs
       delete args['message'];
       delete args['m'];
 
+      // NOTE: needed for simple-git
       Object.keys(args).map(k => {
         let value = args[k];
         const newKey = k.length === 1 ? `-${k}` : `--${k}`;
@@ -32,7 +33,6 @@ yargs
         delete args[k];
 
         if (value === true) {
-          // NOTE: needed for simple-git
           value = null;
         }
 
